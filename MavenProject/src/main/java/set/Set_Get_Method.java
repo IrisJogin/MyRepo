@@ -22,7 +22,7 @@ Set<Integer> obj= new HashSet<Integer>();
 		   
 		System.out.println(obj.size());
 		
-		System.out.println(obj.get(3));
+		//System.out.println(obj.get(3));
 		
 		}
 	}

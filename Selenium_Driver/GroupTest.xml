@@ -1,0 +1,22 @@
+<suite name="MyTestSuite">
+
+	<test name="MyTest">
+
+
+		<groups>
+			<run>
+				<!--include name="SmokeTest">--><!--include>--><!--to include only that particular method -->
+				<exclude name = "SmokeTest"></exclude>
+			</run>
+		</groups>
+		<classes>
+
+			<class name="testNG.BasicAnnotations"> </class>
+			<class name="testNG.Annotation_Test"> </class>
+			<!--<class name="testNG.priorityTest"></class> -->
+
+
+		</classes>
+	</test>
+
+</suite>
